@@ -3,7 +3,7 @@
     "parameters": ["sender", "content"],
     "style": {
       "color": "green",
-      "italic": true
+      "italic": false
     },
     "translation_key": "commands.message.display.incoming"
   },
