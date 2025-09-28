@@ -1,0 +1,56 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "Super Knockback"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 100,
+          "per_level_above_first": 0
+        },
+        "operation": "add_value",
+        "uuid": "3a4f09dc-231d-41ac-8c6b-ba5adb86ac0c"
+      },
+      {
+        "id": "attack_damage",
+        "attribute": "minecraft:attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -2.999999,
+          "per_level_above_first": 0
+        },
+        "operation": "add_value",
+        "uuid": "3a4f09dc-231d-41ac-8c6b-ba5adb86ac0c"
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 100.0,
+            "per_level_above_first": 1.0
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 20
+  },
+  "slots": ["mainhand"],
+  "supported_items": "minecraft:wooden_sword",
+  "weight": 5
+}

@@ -25,17 +25,6 @@
         },
         "operation": "add_value",
         "uuid": "3a4f09dc-231d-41ac-8c6b-ba5adb86ac0c"
-      },
-      {
-        "id": "attack_speed",
-        "attribute": "minecraft:attack_speed",
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 100,
-          "per_level_above_first": 0
-        },
-        "operation": "add_value",
-        "uuid": "3a4f09dc-231d-41ac-8c6b-ba5adb86ac0c"
       }
     ]
   }

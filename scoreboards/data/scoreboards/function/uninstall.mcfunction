@@ -1,0 +1,2 @@
+scoreboard objectives remove Health
+scoreboard objectives remove Deaths

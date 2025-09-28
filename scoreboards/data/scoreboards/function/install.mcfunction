@@ -1,0 +1,2 @@
+function scoreboards:health
+function scoreboards:deaths
